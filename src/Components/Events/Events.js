@@ -6,7 +6,7 @@ const Events = () => {
     <div className="custom-event">
       <div className="custom__event__heading">
         <h4>Custom Events</h4>
-        <h4>Manage Custom Events</h4>
+        <h5>Manage Custom Events</h5>
       </div>
 
       <div className="event__details">

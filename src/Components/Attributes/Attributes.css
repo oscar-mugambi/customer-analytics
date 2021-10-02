@@ -1,9 +1,23 @@
 .attr {
   grid-area: attr;
   background-color: rgb(255, 255, 255);
-  padding: 2rem;
+  padding: 29px;
   border-radius: 10px;
   color: #535c68;
+}
+
+.attr__title {
+  font-size: 20px;
+}
+.attr__title__two {
+  font-size: 12px;
+  font-weight: 600;
+}
+.attr__title__two a {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #002366;
 }
 
 .attr__heading {
@@ -27,4 +41,13 @@
 
   border-radius: 10px;
   padding: 11px 13px;
+}
+.attr__detail h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.attr__detail p {
+  font-size: 13px;
+  font-weight: 500;
 }

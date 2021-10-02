@@ -7,7 +7,8 @@
 }
 
 .card {
-  width: 170px;
+  width: 210px;
+  height: 86px;
   background-color: #fff;
   border-radius: 10px;
   padding-left: 20px;
@@ -19,10 +20,12 @@
 
 .card__title {
   font-size: 13px;
+  font-weight: 600;
   line-height: 15.85px;
   margin-bottom: 5px;
   text-align: start;
 }
 .card__amount {
   font-size: 21px;
+  font-weight: 700;
 }

@@ -1,13 +1,14 @@
 body {
   /* padding: 1rem; */
   background-color: #e5e5e5;
+  padding: 64px 35px;
 }
 
 .container {
   display: grid;
   /* height: 100vh; */
   align-self: center;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 3.74fr 3.16fr 3.23fr;
   grid-template-areas:
     'sidebar cards cards cards cards'

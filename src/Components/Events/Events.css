@@ -1,6 +1,6 @@
 .custom-event {
   grid-area: event;
-  background-color: rgb(199, 199, 41);
+
   padding: 2rem;
   border-radius: 10px;
   background-color: #fff;
@@ -11,6 +11,15 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
+}
+.custom__event__heading h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.custom__event__heading h5 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #002366;
 }
 
 .event__details {
@@ -27,4 +36,14 @@
 
   border-radius: 10px;
   padding: 11px 13px;
+}
+
+.event-detail h4 {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.event-detail p {
+  font-size: 13px;
+  font-weight: 700;
 }

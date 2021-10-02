@@ -1,20 +1,23 @@
 import React from 'react';
+import profile from '../../Assets/profile.jpg';
 import './Sidebar.css';
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="sidebar__heading">
-        <h2>Profile</h2>
-        <div className="sidebar__heading__subtitle">
-          <h3>Status</h3>
-          <h3>Active</h3>
+      <div className="sidebar__heading__spacer">
+        <div className="sidebar__heading">
+          <h2>Profile</h2>
+          <div className="sidebar__heading__subtitle">
+            <h3>Status</h3>
+            <h3>Active</h3>
+          </div>
         </div>
       </div>
 
       <div className="sidebar__profile">
-        <img src="" alt="" />
-        <h2>Jane Doe</h2>
+        <img src={profile} alt="profile" />
+        <h3>Jane Doe</h3>
         <button>Update Details</button>
       </div>
       <div className="sidebar__border"></div>
@@ -27,8 +30,8 @@ const Sidebar = () => {
         </div>
         <div className="sidebar__contact__phone">
           <h4>Phone</h4>
-          <h5>254733526754</h5>
-          <h5>254733526754</h5>
+          <p>254733526754</p>
+          <p>254733526754</p>
         </div>
         <div className="sidebar__border"></div>
 

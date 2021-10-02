@@ -1,15 +1,26 @@
 .chart {
-  display: flex;
   grid-area: chart;
   background-color: blue;
-  /* padding-left: 20px; */
-  padding-top: 19px;
+  padding: 26px;
+
   /* justify-content: space-between; */
+
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+  color: #535c68;
 }
 
 .chart__heading {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  background-color: red;
+  margin-bottom: 38px;
+}
+
+.chart__heading h4 {
+  font-size: 20px;
+}
+.chart__heading h5 {
+  font-size: 14px;
 }

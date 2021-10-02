@@ -6,13 +6,15 @@ const Attributes = () => {
     <div className="attr">
       <div className="attr__heading">
         <h4 className="attr__title">Custom Attributes</h4>
-        <h4 className="attr__title__two">Manage Custom Attributes</h4>
+        <h5 className="attr__title__two">
+          <a href="#">Manage Custom Attributes</a>
+        </h5>
       </div>
 
       <div className="attr__details">
         <div className="attr__detail">
           <h4>Branch</h4>
-          <div>Kapenguria</div>
+          <p>Kapenguria</p>
         </div>
         <div className="attr__detail">
           <h4>Region</h4>
