@@ -1,4 +1,15 @@
 .chart {
+  display: flex;
   grid-area: chart;
   background-color: blue;
+  /* padding-left: 20px; */
+  padding-top: 19px;
+  /* justify-content: space-between; */
+}
+
+.chart__heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: red;
 }
