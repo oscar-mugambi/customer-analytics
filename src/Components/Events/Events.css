@@ -1,0 +1,30 @@
+.custom-event {
+  grid-area: event;
+  background-color: rgb(199, 199, 41);
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #535c68;
+}
+
+.custom__event__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.event__details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.event-detail {
+  width: 180px;
+  height: 67px;
+  border: 2px solid #d9d9d9;
+
+  border-radius: 10px;
+  padding: 11px 13px;
+}

@@ -1,0 +1,30 @@
+.attr {
+  grid-area: attr;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  color: #535c68;
+}
+
+.attr__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.attr__details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  border-radius: 10px;
+}
+
+.attr__detail {
+  width: 180px;
+  height: 67px;
+  border: 2px solid #d9d9d9;
+
+  border-radius: 10px;
+  padding: 11px 13px;
+}
