@@ -1,20 +1,18 @@
 import logo from './logo.svg';
-import './App.css';
+import Home from './Routes/Home';
+import ManageAttr from './Routes/ManageAttributes';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Sidebar from './Components/Sidebar/Sidebar';
-import Cards from './Components/Cards/Cards';
-import Chart from './Components/Chart/Chart';
-import Attributes from './Components/Attributes/Attributes';
-import Events from './Components/Events/Events';
+import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      <Sidebar />
-      <Cards />
-      <Chart />
-      <Attributes />
-      <Events />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/manage" component={ManageAttr} />
+      </Switch>
+    </Router>
   );
 }
 

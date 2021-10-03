@@ -28,7 +28,7 @@ const Events = () => {
         </div>
         <div className="event-detail">
           <h4>Churn Score Dates</h4>
-          <p>0</p>
+          <p>-</p>
         </div>
       </div>
     </div>

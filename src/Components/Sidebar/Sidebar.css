@@ -102,10 +102,10 @@
 }
 .sidebar__contact__phone p {
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   color: #6d6e71;
-  margin: 4px;
+  margin-bottom: 4px;
 }
 
 .sidebar__info {

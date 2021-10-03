@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+  background-color: #e5e5e5;
+  padding: 48px 40px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.manage__attributes {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 40px;
+}
+
+.manage__attributes h1 {
+  margin-bottom: 25px;
+  font-size: 27px;
+  font-weight: 700;
+  color: grey;
+}
+
+.manage__attributes__heading {
+  border: 1px solid #d9d9d9;
+  padding: 28px 33px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.manage__attributes__heading h2 {
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: grey;
+}
+.manage__attributes__heading p {
+  margin-bottom: 32px;
+  color: #6d6e71;
+  font-weight: 500;
+}
+
+.manage__attributes__container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  padding: auto;
+  align-content: center;
+}
+
+.manage__attributes__item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  height: 50px;
+  width: 180px;
+  border: 1px solid #d9d9d9;
+  margin-right: 20px;
+  margin-bottom: 28px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  color: #535c68;
+}
+
+.fa-circle-check,
+.fa-circle {
+  color: #2693f4;
+}

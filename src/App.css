@@ -1,12 +1,15 @@
 body {
   /* padding: 1rem; */
   background-color: #e5e5e5;
-  padding: 64px 35px;
+  /* padding: 64px 35px; */
+  min-width: 1200px;
+  max-width: 1250px;
+  margin: auto;
 }
 
 .container {
   display: grid;
-  /* height: 100vh; */
+
   align-self: center;
   grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 3.74fr 3.16fr 3.23fr;
